@@ -1,3 +1,6 @@
+# Do not track folder with sample pid files for testing:
+/SamplePID/*
+
 # History files
 .Rhistory
 .Rapp.history
