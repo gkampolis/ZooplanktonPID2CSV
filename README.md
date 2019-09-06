@@ -2,7 +2,7 @@
 A simple `.pid` to `.csv` converter, written in R. 
 
 ###### Note
-This was developed with the `.pid` generated during the zooplankton scanning process implemented by Marine Scotland and may not generalize beyond that context. Functionality is dependant on data being delimited by ";" and the existence of a `[Data]` flag within the `.pid` file.
+This was developed with the `.pid` generated during the zooplankton scanning process in mind, as implemented by Marine Scotland, and may not generalize as is beyond that context. Functionality is dependant on data being delimited by ";" and the existence of a `[Data]` flag within the `.pid` file. That said, it is trivial to amend the script to account for any such differences.
 
 ## Usage
 Simple double click on the `.Rproj` file to launch RStudio and then source the `Main.R` script. Dialogs will appear on the screen to guide the user of the very simple steps:
